@@ -1,0 +1,11 @@
+# Link checker config (https://github.com/lycheeverse/lychee)
+
+timeout = 20
+max_retries = 3
+retry_wait_time = 2
+
+# Some community links may intermittently rate-limit or require interactive access.
+exclude = [
+  "https://discord.com/invite/openclaw",
+]
+
